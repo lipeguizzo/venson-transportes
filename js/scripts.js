@@ -21,7 +21,6 @@ document.addEventListener('scroll', scrollToUp = () => {
 
     // 165 é o tamanho do meu header
     if (position > 165) {
-        console.log(position)
         button.classList.remove('hide-button');
     }else{
         button.classList.add('hide-button');
