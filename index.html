@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venson Transportes</title>
+    <script src="https://kit.fontawesome.com/e6c15d702b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/scripts.js"></script>
+</head>
+<body>
+    <header id="top">
+        <nav class="navbar" id="navbar">
+            <div class="navbar-main">
+                <div class="nav-logo">
+                    <img class="logo" src="./assets/logo.jpg" alt="logo">
+                </div>
+                <div class="nav-links">
+                    <ul class="nav-main-links">
+                        <li class="nav-main-item">
+                            <a class="nav-main-link" href="#" onclick="scrollToElement('home', event)">HOME</a>
+                        </li>
+                        <li class="nav-main-item">
+                            <a class="nav-main-link" href="#" onclick="scrollToElement('about', event)">SOBRE</a>
+                        </li>
+                        <li class="nav-main-item">
+                            <a class="nav-main-link" href="#" onclick="scrollToElement('acting', event)">ATUAÇÃO</a>
+                        </li>
+                        <li class="nav-main-item">
+                            <a class="nav-main-link" href="#" onclick="scrollToElement('fleet', event)">FROTA</a>
+                        </li>
+                        <li class="nav-main-item">
+                            <a class="nav-main-link" href="#" onclick="scrollToElement('services', event)">SERVIÇOS</a>
+                        </li>
+                        <li class="nav-main-item">
+                            <a class="nav-main-link" href="#" onclick="scrollToElement('contact', event)">FALE CONOSCO</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-menu">
+                    <input id="menu" type="checkbox" hidden>
+                    <label for="menu" class="nav-menu-button" onclick="toggleNavbarMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    
+                </div>
+            </div>
+            <div class="navbar-contacts">
+                <ul class="nav-contact-links">
+                    <li class="nav-contact-item">
+                        <a class="nav-contact-link" href="#" target="_blank">
+                            <i class="fa-solid fa-envelope"></i> contato@venson.etc.br
+                        </a>
+                    </li>
+                    <li class="nav-contact-item">
+                        <a class="nav-contact-link" href="#" target="_blank">
+                            <i class="fa-solid fa-phone"></i> (48)3478-0035
+                        </a>
+                    </li>
+                    <li class="nav-contact-item">
+                        <a class="nav-contact-link" href="#" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a class="nav-contact-link" href="#" target="_blank">
+                            <i class="fa-brands fa-square-facebook"></i>
+                        </a>
+                        <a class="nav-contact-link" href="#" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="section-home" id="home">
+            <img src="./assets/carousel_1.jpg" alt="carousel_1.jpg">
+        </section>
+        <section class="section-about" id="about">
+            <div class="about-box">
+                <div class="about-text">
+                    <h1 class="title">
+                        SOBRE NÓS
+                    </h1>
+                    <p class="paragraph">
+                        A <strong>Venson Transportes</strong> destaca-se como uma empresa especializada no transporte rodoviário de cargas fechadas.<br><br> Com uma sólida presença desde <strong>1995</strong>, operamos tanto em território nacional quanto internacional.<br><br> Nos dedicamos na pontualidade das entregas, sempre em conformidade com a legislação vigente e priorizando a segurança em todos os aspectos do transporte, proporcionando serviços confiáveis e eficientes aos nossos clientes.
+                    </p>
+                </div>
+                <div class="about-img">
+                    <img src="./assets/carousel_1.jpg" alt="about.jpg">
+                </div>
+            </div>
+            <div class="about-items">
+                <ul class="about-items-list">
+                    <li class="about-item">
+                        <div class="about-item-box">
+                            <i class="fa-solid fa-clipboard-list"></i>
+                        </div>
+                        <h1 class="item-title">
+                            MISSÃO
+                        </h1>
+                        <p class="item-paragraph">
+                            Atuar de forma transparente e responsável, com foco na qualidade, pontualidade e segurança nos serviços prestados.
+                        </p>
+                    </li>
+                    <li class="about-item">
+                        <div class="about-item-box">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>  
+                        <h1 class="item-title">
+                            VISÃO
+                        </h1>
+                        <p class="item-paragraph">
+                            Ser referência no transporte rodoviário de cargas pela qualidade, responsabilidade e eficácia na prestação dos serviços.
+                        </p>
+                    </li>
+                    <li class="about-item">
+                        <div class="about-item-box">
+                            <i class="fa-regular fa-lightbulb"></i>
+                        </div>  
+                        <h1 class="item-title">
+                            VALORES
+                        </h1>
+                        <p class="item-paragraph">
+                            Transparência, ética, segurança e qualidade.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section-acting" id="acting">
+            <div class="acting-text">
+                <h1 class="title">
+                    ÁREA DE ATUAÇÃO
+                </h1>
+                <p class="paragraph">
+                    A Venson Transportes destaca-se por sua atuação tanto no âmbito <strong>nacional</strong> quanto <strong>internacional</strong>.<br><br>No Brasil, operamos com rotas fixas nas regiões Centro-Oeste, Sul e Sudeste, garantindo um atendimento regular e eficiente. E estendemos nossos serviços para todo o país, ajustando-nos às particularidades de cada carga.<br><br>No cenário internacional, a Venson Transportes possui habilitação para o transporte rodoviário em países como Chile, Paraguai e Argentina, garantindo uma presença confiável e qualificada além das fronteiras nacionais.
+                </p>
+            </div>
+            <div class="acting-img">
+                <img src="./assets/acting.png" alt="acting.png">
+            </div>
+        </section>
+        <section class="section-fleet" id="fleet">
+            <div class="fleet-container">
+                <h1 class="title">
+                    FROTA
+                </h1>
+                <ul class="fleet-list">
+                    <li class="fleet-item">
+                        <h4>LS (32 ton)</h4>
+                        <img src="./assets/fleet_1.png" alt="fleet_1.png">
+                    </li>
+                    <li class="fleet-item">
+                        <h4>BITREM (38 ton)</h4>
+                        <img src="./assets/fleet_1.png" alt="fleet_1.png">
+                    </li>
+                    <li class="fleet-item">
+                        <h4>4 EIXO (40 ton)</h4>
+                        <img src="./assets/fleet_1.png" alt="fleet_1.png">
+                    </li>
+                    <li class="fleet-item">
+                        <h4>VANDERLEIA (36 ton)</h4>
+                        <img src="./assets/fleet_1.png" alt="fleet_1.png">
+                    </li>
+                    <li class="fleet-item">
+                        <h4>GRANELEIRA (36 ton)</h4>
+                        <img src="./assets/fleet_1.png" alt="fleet_1.png">
+                    </li>
+                    <li class="fleet-item">
+                        <h4>SIDER (36 ton)</h4>
+                        <img src="./assets/fleet_1.png" alt="fleet_1.png">
+                    </li>
+                </ul>
+                <div class="fleet-link">
+                    <a href="#" target="_blank">
+                        <i class="fa-regular fa-circle-right"></i> Conheça nossa frota
+                    </a>
+            </div>
+        </section>
+        <section class="section-services" id="services">
+            <div class="services-container">
+                <h1 class="service-title">
+                    SERVIÇOS
+                </h1>
+                <ul class="services-list"> 
+                    <li class="service-item">
+                        <img src="./assets/carousel_1.jpg" alt="service_1.jpg">
+                        <p class="service-paragraph">
+                            Transporte de Mercadorias
+                        </p>
+                    </li>
+                    <li class="service-item">
+                        <img src="./assets/carousel_1.jpg" alt="service_1.jpg">
+                        <p class="service-paragraph">
+                            Movimentação de Carga
+                        </p>
+                    </li>
+                    <li class="service-item">
+                        <img src="./assets/carousel_1.jpg" alt="service_1.jpg">
+                        <p class="service-paragraph">
+                            Armazenagem de Carga
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section-contact" id="contact">
+            <div class="contact-box">
+                <h1 class="contact-title">
+                    FALE CONOSCO
+                </h1>
+                <ul class="contact-list">
+                    <li class="contact-item">
+                        <i class="fa-solid fa-phone"></i> <p class="contact-paragraph"> <strong>ATENDIMENTO</strong> <br> (48) 3478-0035 </p>
+                    </li>
+                    <li class="contact-item">
+                        <i class="fa-solid fa-envelope"></i> <p class="contact-paragraph"> <strong>ENVIE UM E-MAIL</strong> <br> contato@venson.etc.br </p>
+                    </li>
+                    <li class="contact-item">
+                        <i class="fa-solid fa-location-dot"></i> <p class="contact-paragraph"> <strong>LOCALIZAÇÃO</strong> <br> Rod. Narciso Dominguini, 460 São Domingos, Criciúma/SC 88812-650 </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="map-box">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2039.255449453449!2d-49.37465456339643!3d-28.809554714466806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952181d370bfc321%3A0xbd108a06f77b4b23!2sTransportes%20Venson!5e0!3m2!1spt-PT!2sbr!4v1710886316876!5m2!1spt-PT!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+    <div class="arrow-box hide-button" id="arrow-button" onclick="scrollToElement('top', event)">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <footer>
+        <p>
+            © Copyright 2024 | VENSON TRANSPORTES
+        </p>
+        <img src="./assets/logo.jpg" alt="logo.jpg" class="logo">
+    </footer>
+</body>
+</html>
